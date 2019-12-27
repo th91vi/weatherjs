@@ -1,0 +1,2 @@
+# weatherjs
+For educational purposes  
