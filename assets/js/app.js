@@ -31,7 +31,6 @@ document.getElementById('w-change-btn').addEventListener('click', (e) => {
 
 function getWeather(){weather.getWeather()
     .then(results => {
-        console.log(results);
         ui.paint(results);
     })
     .catch(err => console.log(err));}
